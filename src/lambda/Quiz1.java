@@ -18,7 +18,7 @@ public class Quiz1 {
 				return y;
 			}
 		};
-		System.out.println(number3.max(50, 60));
+		System.out.println(number3.max(30, 40));
 		
 		// 람다식 함수를 사용하여 max()를 호출
 		MyNumber number2 = (x, y) -> {
@@ -27,7 +27,7 @@ public class Quiz1 {
 			}
 			return y;
 		};
-		System.out.println(number2.max(30, 40));
+		System.out.println(number2.max(50, 60));
 
 
 	}
